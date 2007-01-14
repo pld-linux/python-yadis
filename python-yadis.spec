@@ -2,6 +2,7 @@
 %define		module	yadis
 
 Summary:	Python modules offering Yadis support
+Summary(pl):	Modu³y Pythona oferuj±ce obs³ugê Yadis
 Name:		python-%{module}
 Version:	1.1.0
 Release:	1
@@ -16,11 +17,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module implements relying party support for the Yadis service
-discovery protocol.  The protocol was developed for use by
+discovery protocol. The protocol was developed for use by
 decentralized URL-based identity systems, but is useful for
 advertising services provided by or on behalf of a certain URL.
 
 To learn more about Yadis, see http://www.openidenabled.com/yadis
+
+%description -l pl
+Ten modu³ implementuje obs³ugê czê¶ci przekazuj±cej dla protoko³u
+wykrywania us³ug Yadis. Protokó³ zosta³ stworzony do u¿ywania przez
+zdecentralizowane systemy identyfikacji oparte na URL-ach, ale jest
+przydatny do us³ug reklamowych udostêpnianych przez lub w imieniu
+okre¶lonego URL-a.
 
 %prep
 %setup -q
