@@ -2,7 +2,7 @@
 %define		module	yadis
 
 Summary:	Python modules offering Yadis support
-Summary(pl):	Modu³y Pythona oferuj±ce obs³ugê Yadis
+Summary(pl.UTF-8):   ModuÅ‚y Pythona oferujÄ…ce obsÅ‚ugÄ™ Yadis
 Name:		python-%{module}
 Version:	1.1.0
 Release:	1
@@ -23,12 +23,12 @@ advertising services provided by or on behalf of a certain URL.
 
 To learn more about Yadis, see http://www.openidenabled.com/yadis
 
-%description -l pl
-Ten modu³ implementuje obs³ugê czê¶ci przekazuj±cej dla protoko³u
-wykrywania us³ug Yadis. Protokó³ zosta³ stworzony do u¿ywania przez
+%description -l pl.UTF-8
+Ten moduÅ‚ implementuje obsÅ‚ugÄ™ czÄ™Å›ci przekazujÄ…cej dla protokoÅ‚u
+wykrywania usÅ‚ug Yadis. ProtokÃ³Å‚ zostaÅ‚ stworzony do uÅ¼ywania przez
 zdecentralizowane systemy identyfikacji oparte na URL-ach, ale jest
-przydatny do us³ug reklamowych udostêpnianych przez lub w imieniu
-okre¶lonego URL-a.
+przydatny do usÅ‚ug reklamowych udostÄ™pnianych przez lub w imieniu
+okreÅ›lonego URL-a.
 
 %prep
 %setup -q
