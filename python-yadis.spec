@@ -5,7 +5,7 @@ Summary:	Python modules offering Yadis support
 Summary(pl.UTF-8):	Moduły Pythona oferujące obsługę Yadis
 Name:		python-%{module}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://www.openidenabled.com/resources/downloads/python-openid/%{name}-%{version}.tar.gz
