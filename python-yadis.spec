@@ -12,6 +12,8 @@ Source0:	http://www.openidenabled.com/resources/downloads/python-openid/%{name}-
 # Source0-md5:	dce07b08a54f28dfe17ed6601175409c
 URL:		http://www.openidenabled.com/
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
