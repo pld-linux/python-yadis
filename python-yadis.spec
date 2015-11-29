@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.openidenabled.com/resources/downloads/python-openid/%{name}-%{version}.tar.gz
 # Source0-md5:	dce07b08a54f28dfe17ed6601175409c
 URL:		http://www.openidenabled.com/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
